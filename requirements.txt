@@ -1,3 +1,4 @@
 requests[security]
 git+https://github.com/AlienVault-Labs/OTX-Python-SDK.git
 -r autorequirements.txt
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
